@@ -33,7 +33,7 @@ const Home = () => {
 			</div>
 			<ul className="py-10 px-40 w-full space-y-4">
 				{isError || (error && <p>Something went wrong...</p>)}
-				{data && data.status ? (
+				{data && data.status && data?.wordData.length > 0 ? (
 					data.wordData.map((item) => (
 						<li key={item.word} className="flex space-x-4">
 							<h2 className="text-3xl font-bold whitespace-nowrap">
