@@ -20,8 +20,9 @@ Since we communicate with people in the community, we discover ourselves unaware
 
 ## How I built it
 
-- used [Next.js](https://nextjs.org/) for the website along with [TailwindCSS](https://tailwindcss.com/) [[Daisy UI](https://daisyui.com/)] for the making of the website.
-- [GitHub](https://github.com/lostgirljourney/TechTogether-Glossary)
+- Used [Next.js](https://nextjs.org/) for the website along with [TailwindCSS](https://tailwindcss.com/) [[Daisy UI](https://daisyui.com/)] for the making of the website.
+- [GitHub](https://github.com/lostgirljourney/TechTogether-Glossary) for repository.
+- [LGBTQIA-Dictionary](https://rainbowcenter.uconn.edu/wp-content/uploads/sites/2262/2019/01/LGBTQIA-Dictionary-FINAL-Spring-18.pdf) for the words and their definitions.
 
 ## Accomplishments that I am proud of
 

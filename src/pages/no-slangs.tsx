@@ -1,11 +1,10 @@
-import { useState } from 'react';
 import { useQuery } from '@tanstack/react-query';
-import { useDebounce } from '@/hooks';
 import { Data } from '@/constants';
 import Layout from '@/components/Layout';
+import Loading from '@/components/Loading';
 
 const Slangs = () => {
-	const { data, isError, error } = useQuery<Data>(['slangs'], () =>
+	const { data, isError, isLoading, error } = useQuery<Data>(['slangs'], () =>
 		fetch(`/api/slangs`).then((res) => res.json())
 	);
 
@@ -21,7 +20,9 @@ const Slangs = () => {
 							Something went wrong...
 						</p>
 					))}
-				{data && data.status ? (
+				{isLoading ? (
+					<Loading />
+				) : data && data.status ? (
 					data.wordData.map((item) => (
 						<li key={item.word} className="flex space-x-4">
 							<h2 className="text-3xl font-bold whitespace-nowrap">
