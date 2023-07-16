@@ -2,6 +2,8 @@
 
 This is a website where you can find the meaning of the words which is generally used in the LGBTQIA+ community. Here, you will also get a list of slang which you should avoid while communicating with people in the community.
 
+[Website](https://proud-cliff-077dbeb00.3.azurestaticapps.net/) 🌐
+
 ## Features
 
 There are two pages.
@@ -13,6 +15,10 @@ There are two pages.
 - Say NO to Slangs! ↗: Here you will get a list of words which you should definitely avoid while in a conversation.
 
   ![image](/public/images/no-slangs.png)
+
+## Demo
+
+https://github.com/lostgirljourney/TechTogether-Glossary/assets/56036475/8084df75-ea18-4ceb-831c-0d328e4617e7
 
 ## Inspiration
 
